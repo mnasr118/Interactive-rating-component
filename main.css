@@ -1,0 +1,423 @@
+body {
+  background-color: #121417;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+body {
+  background-color: #121417;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .card {
+  height: 360px;
+  width: 327px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+  border-radius: 30px;
+}
+
+.main .card .hide {
+  display: none;
+}
+
+.main .card .card-body {
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.main .card .card-body .icon-wrapper {
+  background: #262e38;
+  border-radius: 40px;
+  height: 48px;
+  width: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .card .card-body .icon-wrapper .star {
+  height: 16px;
+  width: 16px;
+}
+
+.main .card .card-body .header {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* Pure White */
+  color: #ffffff;
+}
+
+.main .card .card-body .discription {
+  margin-bottom: 24px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* Light Grey */
+  color: #969fad;
+}
+
+.main .card .card-body .selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 281px;
+  margin-right: 0px;
+  margin-bottom: 24px;
+}
+
+.main .card .card-body .selection .circle {
+  margin-right: 20px;
+  height: 42px;
+  width: 42px;
+  background-color: #252d37;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* Medium Gray */
+  color: #7c8798;
+}
+
+.main .card .card-body .selection .circle:hover {
+  background-color: #fb7413;
+}
+
+.main .card .card-body .selection .five {
+  margin-right: 0px;
+}
+
+.main .card .card-body .submit {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 279px;
+  height: 45px;
+  background: #fc7614;
+  border-radius: 22.5px;
+  color: white;
+  border: none;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.86667px;
+}
+
+.main .card .card-body .submit:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.main .card .cardBodyTwo {
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.main .card .cardBodyTwo .thankYou {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 24px;
+}
+
+.main .card .cardBodyTwo .starsFinal {
+  /* Dark Blue */
+  background: #262e38;
+  border-radius: 22.5px;
+  text-align: center;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  text-align: center;
+  /* identical to box height, or 160% */
+  text-align: center;
+  /* Orange */
+  color: #fc7614;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.main .card .cardBodyTwo .thankYouHeader {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.main .card .cardBodyTwo .thankYouFont {
+  margin-top: 10px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  text-align: center;
+  /* Light Grey */
+  color: #969fad;
+}
+
+body {
+  background-color: #121417;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1440px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .card {
+    height: 412px;
+    width: 416px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+    border-radius: 30px;
+  }
+  .main .card .hide {
+    display: none;
+  }
+  .main .card .card-body {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 39px;
+    margin-bottom: 32px;
+  }
+  .main .card .card-body .icon-wrapper {
+    background: #262e38;
+    border-radius: 40px;
+    height: 48px;
+    width: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .card .card-body .icon-wrapper .star {
+    height: 16px;
+    width: 16px;
+  }
+  .main .card .card-body .header {
+    margin-top: 30px;
+    margin-bottom: 7px;
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    /* Pure White */
+    color: #ffffff;
+  }
+  .main .card .card-body .discription {
+    margin-bottom: 24px;
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    /* Light Grey */
+    color: #969fad;
+  }
+  .main .card .card-body .selection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 341px;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .main .card .card-body .selection .circle {
+    margin-right: 20px;
+    height: 51px;
+    width: 51px;
+    background-color: #252d37;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* Medium Gray */
+    color: #7c8798;
+  }
+  .main .card .card-body .selection .circle:hover {
+    background-color: #fb7413;
+  }
+  .main .card .card-body .selection .five {
+    margin-right: 0px;
+  }
+  .main .card .card-body .submit {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 341px;
+    height: 45px;
+    background: #fc7614;
+    border-radius: 22.5px;
+    color: white;
+    border: none;
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  .main .card .card-body .submit:hover {
+    background-color: white;
+    color: #fb7413;
+  }
+  .main .card .cardBodyTwo {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 39px;
+    margin-bottom: 32px;
+  }
+  .main .card .cardBodyTwo .thankYou {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 32px;
+  }
+  .main .card .cardBodyTwo .starsFinal {
+    /* Dark Blue */
+    background: #262e38;
+    border-radius: 22.5px;
+    text-align: center;
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-align: center;
+    /* Orange */
+    color: #fc7614;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .main .card .cardBodyTwo .thankYouHeader {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 32px;
+  }
+  .main .card .cardBodyTwo .thankYouFont {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    text-align: center;
+    /* Light Grey */
+    color: #969fad;
+  }
+}
+/*# sourceMappingURL=main.css.map */

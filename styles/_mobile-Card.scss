@@ -1,0 +1,185 @@
+@import "_general.scss";
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.card {
+		.hide {
+			display: none;
+		}
+		height: 360px;
+		width: 327px;
+		background: radial-gradient(
+			98.96% 98.96% at 50% 0%,
+			#232a34 0%,
+			#181e27 100%
+		);
+		border-radius: 30px;
+		.card-body {
+			margin-top: 24px;
+			margin-left: 24px;
+			margin-right: 24px;
+			margin-bottom: 24px;
+			.icon-wrapper {
+				background: #262e38;
+				border-radius: 40px;
+				height: 48px;
+				width: 48px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				.star {
+					height: 16px;
+					width: 16px;
+				}
+			}
+			.header {
+				margin-top: 16px;
+				margin-bottom: 10px;
+				font-family: "Overpass";
+				font-style: normal;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 30px;
+
+				/* Pure White */
+
+				color: #ffffff;
+			}
+			.discription {
+				margin-bottom: 24px;
+				font-family: "Overpass";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 22px;
+
+				/* Light Grey */
+
+				color: #969fad;
+			}
+			.selection {
+				display: flex;
+				width: 281px;
+				margin-right: 0px;
+				margin-bottom: 24px;
+				.circle {
+					margin-right: 20px;
+					height: 42px;
+					width: 42px;
+					background-color: $Dark-Blue;
+					border-radius: 30px;
+					border: none;
+					color: $White;
+					font-family: "Overpass";
+					font-style: normal;
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 24px;
+					/* identical to box height, or 150% */
+
+					text-align: center;
+					letter-spacing: 0.2px;
+
+					/* Medium Gray */
+
+					color: #7c8798;
+
+					&:hover {
+						background-color: $Orange;
+					}
+				}
+				.five {
+					margin-right: 0px;
+				}
+			}
+			.submit {
+				text-align: center;
+				align-items: center;
+				width: 279px;
+				height: 45px;
+				background: #fc7614;
+				border-radius: 22.5px;
+				color: white;
+				border: none;
+				font-family: "Overpass";
+				font-style: normal;
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 18px;
+				letter-spacing: 1.86667px;
+
+				&:hover {
+					background-color: $White;
+					color: $Orange;
+				}
+			}
+		}
+		.cardBodyTwo {
+			margin-top: 24px;
+			margin-left: 24px;
+			margin-right: 24px;
+			margin-bottom: 24px;
+			.thankYou {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-bottom: 24px;
+			}
+			.starsFinal {
+				/* Dark Blue */
+
+				background: #262e38;
+				border-radius: 22.5px;
+				text-align: center;
+				font-family: "Overpass";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 22px;
+				/* identical to box height, or 157% */
+
+				text-align: center;
+
+				/* identical to box height, or 160% */
+
+				text-align: center;
+
+				/* Orange */
+
+				color: #fc7614;
+				padding-top: 4px;
+				padding-bottom: 4px;
+			}
+			.thankYouHeader {
+				font-family: "Overpass";
+				font-style: normal;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 30px;
+				text-align: center;
+
+				color: white;
+
+				text-align: center;
+				margin-top: 24px;
+			}
+			.thankYouFont {
+				margin-top: 10px;
+				font-family: "Overpass";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 22px;
+				/* or 157% */
+
+				text-align: center;
+
+				/* Light Grey */
+
+				color: #969fad;
+			}
+		}
+	}
+}
